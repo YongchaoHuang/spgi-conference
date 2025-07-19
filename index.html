@@ -69,6 +69,35 @@
             backdrop-filter: blur(10px);
         }
 
+        .tagline-box {
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 20px;
+            padding: 25px;
+            margin: 30px auto 0;
+            max-width: 700px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .tagline-box p {
+            font-size: 1.1em;
+            margin: 0 0 15px 0;
+            line-height: 1.5;
+        }
+
+        .tagline-highlight {
+            background: linear-gradient(135deg, #fff 0%, #f8f9ff 100%);
+            color: #667eea;
+            padding: 12px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 1.05em;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+        }
+
         nav {
             background: white;
             padding: 0;
@@ -184,6 +213,15 @@
                 font-size: 1.2em;
             }
             
+            .tagline-box {
+                margin: 20px auto 0;
+                padding: 20px;
+            }
+            
+            .tagline-box p {
+                font-size: 1em;
+            }
+            
             nav ul {
                 flex-direction: column;
                 align-items: center;
@@ -242,7 +280,10 @@
                 </div>
                 <div class="subtitle">Short Paper, Great Idea</div>
                 <div class="date-location">A Science Conference Where Like Minds Meet</div>
-                <p>Pronounced as 'S-P-G-I' or just 'spaghetti', SPGI is a venue for concise, highly novel contributions. We value clarity, originality, novelty and sharp insight over length or exhaustive coverage. If your idea is great, you don’t need many pages to convince us.</p>
+                <div class="tagline-box">
+                    <p><strong>Pronounced as 'S-P-G-I' or just 'spaghetti'</strong> — SPGI is a venue for concise, highly innovative contributions. We value <em>clarity, originality, novelty and sharp insight</em> over length or exhaustive coverage.</p>
+                    <div class="tagline-highlight">If your idea is great, you don't need a rigid structure and many pages to convince the audience.</div>
+                </div>
             </div>
         </div>
     </header>
